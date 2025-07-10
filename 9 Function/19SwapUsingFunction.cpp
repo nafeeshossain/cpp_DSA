@@ -4,7 +4,7 @@ int swap(int a,int b){
     int temp = b;
     b = a;
     a = temp;
-    return;
+    return ;
 }
 
 int main(){
