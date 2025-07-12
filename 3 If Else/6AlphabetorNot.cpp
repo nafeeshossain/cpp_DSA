@@ -10,7 +10,7 @@ int main(){
     //     cout<<a<<" is an Alphabet (small)";
     // }else if(a>=65 && a<=90){
     //     cout<<a<<" is an Alphabet (Capital)";
-    if((a>=97 && a>=122) || (a>=65 && a<=90)){
+    if((a>=97 && a<=122) || (a>=65 && a<=90)){
         cout<<a<<" is an Aplhabet";
     }else{
         cout<<a<<" isn't an Alphabet";
