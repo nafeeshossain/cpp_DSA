@@ -1,0 +1,18 @@
+#include<iostream>
+#include<string>
+#include<sstream>
+
+using namespace std;
+int main(){
+
+    string s = "raghav is a math teacher";
+    stringstream ss(s);
+    string temp;
+    while(ss>>temp){
+        cout<<temp<<endl;
+    }
+    while(ss>>temp){
+        string a = temp;
+        
+    }
+}
