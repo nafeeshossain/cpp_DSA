@@ -8,6 +8,19 @@ int main(){
     }
 }
 
+class Solution {
+public:
+    int largestAltitude(vector<int>& gain) {
+        vector<int>v = {0};
+        int ans = 0;
+        for(int i=0; i<gain.size(); i++){
+            int a = v[i] + gain[i];
+            v.push_back(a);
+            if(a>ans) ans = a;
+        }return ans;
+    }
+};
+
 // int main(){
 //     int n = 1;
 //     for(int i=0; i<4; i++){
